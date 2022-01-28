@@ -1,0 +1,62 @@
+h1 {
+  color: #678983;
+  position: absolute;
+  left: 550px;
+  bottom: 400px;
+  font-size: 60px;
+}
+
+.cor-dos-conteudos {
+  color: #678983;
+  font-size: 30px;
+}
+
+.alinhar-paragrafo {
+  position: absolute;
+  left: 560px;
+  bottom: 340px;
+  font-size: 30px;
+  color: #92a9bd;
+}
+
+.div-alinhar-paragrafo {
+  height: 500px;
+  width: 600px;
+  position: absolute;
+  top: 20%; /* posiciona na metade da tela */
+  margin-top: -25px; /* e retrocede metade da altura */
+  left: 30%; /* posiciona na metade da tela */
+  margin-left: -100px; /* e retrocede metade da largura */
+  text-align: center;
+}
+.config-body {
+  background: url("../img/fundo.jpg") no-repeat top center fixed;
+  background-color: #678983;
+  margin: 0;
+}
+
+.posicao-div {
+  position: relative;
+}
+.tamanho {
+  height: 100vh;
+  width: 100vw;
+}
+
+.d {
+  border: 8px solid rgb(180, 238, 225);
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  left: 550px;
+  bottom: 200px;
+}
+
+.imagem {
+  border-radius: 50%;
+  border: 8px solid rgb(180, 238, 225);
+  position: relative;
+  left: 200px;
+  top: 50px;
+  height: 300px;
+}
